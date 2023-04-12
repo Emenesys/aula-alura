@@ -41,6 +41,7 @@ body {
     margin: 1em 0 2em 0;
 }
 
+
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
@@ -116,4 +117,41 @@ body {
 .lista__item {
     font-size: 32px;
     color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 8em 0;
+    
+    
+   
+}
+ 
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+    justify-content: center;
+    margin: 3em 0;
+    color: var(--cinza-secundario);
+       
+        
+}
+
+
+.lista__links a{
+    justify-content: center;
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.rodape__texto {
+    text-align: center;
+    color: var(--cinza-secundario);
+    margin: 2em 4em;
+}
+
+.lista__links a:hover {
+    color: var(--botao-azul);
 }
